@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>StreamAPI</groupId>
+	<artifactId>com.ashifshadab.streamAPI</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>StreamAPI</name>
+	<description>Stream API</description>
+
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+	<modules>
+		<module>StreamBasic</module>
+		<module>StreamReduce</module>
+		<module>ParallelStreams</module>
+		<module>StreamMap</module>
+		<module>StreamMapAndCollect</module>
+		<module>IteratorAndSpliterator</module>
+		<module>StreamMethodsPractice</module>
+		<module>StreamCreationOperations</module>
+		<module>StreamSelectionOperations</module>
+		<module>StreamMappingOperations</module>
+		<module>StreamSortingOperations</module>
+		<module>StreamReducingOperations</module>
+		<module>StreamFindingAndMatchingOperations</module>
+		<module>StreamOtherOperations</module>
+		<module>StreamFlatteningOperation</module>
+		<module>IntStreamsummaryStatistics</module>
+		<module>StreamCodingExersise</module>
+	</modules>
+</project>
